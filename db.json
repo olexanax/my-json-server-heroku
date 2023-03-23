@@ -1,16 +1,54 @@
 {
-  "posts":[
+  "heroes": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "Thor",
+      "description": "Стріляю блискавками, бог грому та грогу",
+      "element": "fire",
+      "id": "16366aad-4e8e-493f-ba4a-b4fd670c5824"
+    },
+    {
+      "name": "Українець",
+      "description": "Найкраща людина в світі",
+      "element": "earth",
+      "id": "8e59e3ab-75d2-46a9-af21-32a42ef3b414"
+    },
+    {
+      "name": "Junior Developer",
+      "description": "Також найкраща людина в світі",
+      "element": "water",
+      "id": "f6cfe782-99f9-44cd-bdda-1576ca46fbaf"
     }
   ],
-  "comments" : [
+  "filters": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "value": "all",
+      "text": "всі",
+      "type": "outline-dark",
+      "id": 1
+    },
+    {
+      "value": "fire",
+      "text": "вогонь",
+      "type": "danger",
+      "id": 2
+    },
+    {
+      "value": "water",
+      "text": "вода",
+      "type": "primary",
+      "id": 3
+    },
+    {
+      "value": "wind",
+      "text": "вітер",
+      "type": "success",
+      "id": 4
+    },
+    {
+      "value": "earth",
+      "text": "земля",
+      "type": "secondary",
+      "id": 5
     }
   ]
 }
